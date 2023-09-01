@@ -21,4 +21,4 @@ def generate_password() -> string:
     random.shuffle(result)
     return ''.join(result)
 
-print(generate_password())
+print(f'Here is your password: {generate_password()}')
