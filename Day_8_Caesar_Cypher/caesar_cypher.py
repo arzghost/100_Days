@@ -1,6 +1,7 @@
 ﻿import string as s
 import argparse
 
+
 ALPHABET: str = s.ascii_letters + s.digits + s.punctuation
 
 def encrypt(message: str, shift: int) -> str:
