@@ -1,0 +1,22 @@
+﻿scientists_names = {
+    'Newton, Isaac': {'Born': 1643, 'Gender' : 'Male', 'Country': 'United Kingdom'},
+    'Tesla, Nikola': {'Born': 1856, 'Gender' : 'Male', 'Country': 'Croatia'},
+    'Lomonosov, Mikhail': {'Born': 1711, 'Gender' : 'Male', 'Country': 'Russian Empire'},
+    'Skłodowska-Curie, Marie': {'Born': 1867, 'Gender' : 'Female', 'Country': 'Poland'},
+    'Maxwell, James': {'Born': 1831, 'Gender' : 'Male', 'Country': 'United Kingdom'},
+    'Bohr, Niels': {'Born': 1885, 'Gender' : 'Male', 'Country': 'Denmark'},
+    'Einstein, Albert': {'Born': 1879, 'Gender' : 'Male', 'Country': 'Germany'},
+    'Galilei, Galileo': {'Born': 1564, 'Gender' : 'Male', 'Country': 'Italy'},
+    'Copernicus, Nicolaus': {'Born': 1473, 'Gender' : 'Male', 'Country': 'Poland'},
+    'Brahe, Tycho': {'Born': 1456, 'Gender' : 'Male', 'Country': 'Sweden'},
+    'Lovelace, Ada': {'Born': 1815, 'Gender' : 'Female', 'Country': 'United Kingdom'},
+    'Franklin, Rosalind': {'Born': 1920, 'Gender' : 'Female', 'Country': 'United Kingdom'},
+    'McClintock, Barbara': {'Born': 1902, 'Gender' : 'Female', 'Country': 'United States'},
+    'Wu, Chien-Shiung': {'Born': 1912, 'Gender' : 'Female', 'Country': 'China'},
+    'Rubin, Vera': {'Born': 1928, 'Gender' : 'Female', 'Country': 'United States'},
+    'Merian, Maria Sibylla': {'Born': 1647, 'Gender' : 'Female', 'Country': 'Free City of Frankfurt'},
+    'Hopper, Grace': {'Born': 1906, 'Gender' : 'Female', 'Country': 'United States'},
+    'Widdowson, Elsie': {'Born': 1906, 'Gender' : 'Female', 'Country': 'United Kingdom'},
+    'Youyou, Tu': {'Born': 1906, 'Gender' : 'Female', 'Country': 'United Kingdom'},
+    'Freese, Katherine': {'Born': 1957, 'Gender' : 'Female', 'Country': 'Germany'}
+}
