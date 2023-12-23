@@ -1,5 +1,6 @@
 ﻿import matplotlib.pyplot as plt
 
+
 def get_values(string: str, length: int) -> list:
     while True:
         try:
