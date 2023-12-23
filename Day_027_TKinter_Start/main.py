@@ -17,11 +17,13 @@ class CustomButton(Button):
         self['width'] = ELEM_WIDTH
         self['bg'] = 'white'
         self['fg'] = 'blue'
+        self['activebackground'] = '#0000ff'
+        self['activeforeground'] = '#ff0000'
 
 
 class Block(Frame):
     def __init__(self, master, *args, **kwargs) -> None:
-        Frame.__init__(self, master, background='white')
+        Frame.__init__(self, master, background='green')
         self.ent1 = Entry(master, width=ELEM_WIDTH, font=FONT, fg='blue')
         self.ent2 = Entry(master, width=ELEM_WIDTH, font=FONT, fg='blue')
         self.but_add = CustomButton(master, text='+')
@@ -44,8 +46,6 @@ class Block(Frame):
         self.result.pack()
 
     def add(self) -> None:
-        self.but_add['activebackground'] = '#181920'
-        self.but_add['activeforeground'] = '#012345'
         num1 = float(self.ent1.get())
         num2 = float(self.ent2.get())
         calculation = num1 + num2
