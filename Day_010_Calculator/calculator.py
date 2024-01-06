@@ -17,7 +17,7 @@ FUNCS = {
     'sin': math.sin,
     'cos': math.cos,
     'tan': math.tan,
-    'cotan': cotan,
+    'cotan': lambda x: 1 / math.tan(x),
     'asin': math.asin,
     'acos': math.acos,
     'atan': math.atan
